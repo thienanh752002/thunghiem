@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Title</title>
+</head>
+<body>
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+    
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
+    <div class="card-columns">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="imglqd/for.jpg" alt="Fordham University" >
+        <div class="card-body"> 
+            <h5 class="card-title">Fordham University</h5>
+            <p class="card-text">
+                Fordham is a world-class comprehensive research organization,...
+            </p>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Show All
+              </button>
+            
+              <!-- The Modal -->
+              <div class="modal fade" id="myModal">
+                <div class="modal-dialog modal-xl">
+                  <div class="modal-content">
+                  
+                    <!-- Modal Header -->
+                    <div class="modal-header">
+                      <h4 class="modal-title">Fordham University</h4>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+                    
+                    <!-- Modal body -->
+                    <div class="modal-body">
+                    <img src="imglqd/forham.jpg" alt="fordham university" style="height: 200px; width:45%;"> 
+                    <img src="imglqd/for.jpg" alt="Student" style="height: 200px; width:45%;"><br>
+                    <button data-toggle="collapse" data-target="#demo" class=" btn btn-infor" class="accordion">History Begin</button>
+                    <div id="demo" class="collapse">
+                    <p>
+                        - Established in 1841 and named for the Fordham neighborhood of the Bronx in which its original campus is located, Fordham is the oldest Catholic and Jesuit university in the northeastern United States, and the third-oldest university in New York State.
+                    </p> 
+                    </div>
+                    <br>
+                    <button data-toggle="collapse" data-target="#demo" class=" btn btn-infor" class="accordion">Generality</button>
+                    <div id="demo" class="collapse">
+                      <img src="imglqd/hocsinh.jpg" alt="student" style="height: 200px; width:45%;">
+                        <p> - Fordham enrolls approximately 15,300 students from more than 65 countries, and is composed of ten constituent colleges, four of which are undergraduate and six of which are postgraduate, across three campuses in southern New York State.</p>
+                      <img src="imglqd/download.jpg" alt="Sports" style="height: 200px; width:45%;">
+                        <p>- The university's athletic teams, the Rams, include a football team that boasted a win in the Sugar Bowl, two Pro Football Hall of Famers, two All-Americans, two Canadian Football League All-Stars, and numerous NFL players.</p>
+                      <img src="imglqd/thuvien.jpg" alt="library"style="height: 200px; width:45%;">
+                        <p>- Library architecture with ancient style, quiet, large space with many choices for students to freely explore</p>
+                      <img src="imglqd/957315957864.jpg" alt="room" style="height: 200px; width:45%;">
+                        <p>- In terms of residency: with facilities, students will be supported in the best way for residency.</p>
+                    </div>
+                    <br>
+                    <button data-toggle="collapse" data-target="#demo" class=" btn btn-infor" class="accordion">Location</button>
+                    <div id="demo" class="collapse">
+                      <div id="googleMap" style="width:70%;height:50%; padding-left: 23%;">
+                        
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.5129317735305!2d-0.11241628469343858!3d51.52215127963758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760ff6618eb2f1%3A0x89a17ac02b0e46ef!2sFordham%20University%20London%20Centre!5e0!3m2!1svi!2s!4v1607334604210!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                    </div>
+                    
+                    <!-- Modal footer -->
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              
+            </div>        
+</div>
+</div>
+</div>
+<div class="card-columns">
+  <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="imglqd/ct.jpg" alt="City University" >
+      <div class="card-body"> 
+          <h5 class="card-title">City University</h5>
+          <p class="card-text">
+            Located in the heart of London, City, University of London is the top university in the world,...
+          </p>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal-1">
+              Show All
+            </button>
+          
+            <!-- The Modal -->
+            <div class="modal fade" id="myModal-1">
+              <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                
+                  <!-- Modal Header -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">City University</h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  </div>
+                  
+                  <!-- Modal body -->
+                  <div class="modal-body">
+                  <img src="imglqd/cong.jpg" alt="fordham university" style="height: 200px; width:45%;"> 
+                  <img src="imglqd/his.jpg" alt="Student" style="height: 200px; width:45%;"><br>
+                  <button data-toggle="collapse" data-target="#demo" class=" btn btn-infor" class="accordion">History Begin</button>
+                  <div id="demo" class="collapse">
+                  <p>
+                      - Founded in 1894, the City became a member of the prestigious University of London in 2016.
+                  </p> 
+                  </div>
+                  <br>
+                  
+                  <button data-toggle="collapse" data-target="#demo" class=" btn btn-infor">Generality</button>
+                  <div id="demo" class="collapse">
+                    <img src="imglqd/st.jpg" alt="student" style="height: 200px; width:45%;">
+                      <p> - The University accepts nearly 20,000 students from more than 160 countries and an academic team from more than 75 countries.</p>
+                    <img src="imglqd/sp.jpg" alt="Sports" style="height: 200px; width:45%;">
+                      <p>- The University's CitySport Sports Center is the largest student sports facility in central London. The Center has a preferential membership fee for students with modern sports equipment, stretching on a floor space up to 3000m2, with a variety of fitness classes, dance, martial arts, and fitness. Sports suitable for all students, as well as Olympic-standard sports fields for both teams and individuals.</p>
+                    <img src="imglqd/ctlb.jpg" alt="library"style="height: 200px; width:45%;">
+                      <p>- The main and specialized libraries for the Cass Business School and City Law School have a wide variety of opening hours, and are home to e-books, magazines and online data.</p>
+                    <img src="imglqd/room.jpg" alt="room" style="height: 200px; width:45%;">
+                      <p>- International students studying for a full year at City will be eligible to apply for housing in hostels arranged by the school. City also works with many third-party providers to provide safe and modern accommodation options right off campus.</p>
+                  </div>
+                  <br>
+                  <button data-toggle="collapse" data-target="#demo" class=" btn btn-infor" onclick="myMap()">Location</button>
+                  <div id="demo" class="collapse">
+                      <div id="googleMap" style="width:70%;height:50%; padding-left: 23%;">
+                        
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.1956145477766!2d-0.10465108474698537!3d51.52797187963855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761ca7b1d83351%3A0x570d19c20ab22a83!2sCity%2C%20University%20of%20London!5e0!3m2!1svi!2s!4v1607334231834!5m2!1svi!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                      </div>
+
+                      
+                  </div>
+                  
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+            
+          </div>        
+</div>
+</div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
